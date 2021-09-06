@@ -129,7 +129,7 @@ overview please visit the official project page:
    <http://192.168.99.100:3000> if you are using docker-machine instead
    of the native docker installation)
 
-### Vagrant
+### Vagrant Instance
 
 1. Install [Vagrant](https://www.vagrantup.com/downloads.html) and
    [Virtualbox](https://www.virtualbox.org/wiki/Downloads)
