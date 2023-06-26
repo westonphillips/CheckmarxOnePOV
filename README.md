@@ -58,8 +58,6 @@ overview please visit the official project page:
 - [References](#references)
 - [Merchandise](#merchandise)
 - [Donations](#donations)
-- [Contributors](#contributors)
-- [Licensing](#licensing)
 
 ## Setup
 
@@ -325,27 +323,6 @@ Foundation. If you'd like to express your support of the Juice Shop
 project, please make sure to tick the "Publicly list me as a supporter
 of OWASP Juice Shop" checkbox on the donation form. You can find our
 more about donations and how they are used here:
-
-<https://pwning.owasp-juice.shop/part3/donations.html>
-
-## Contributors
-
-The OWASP Juice Shop core project team are:
-
-- [Björn Kimminich](https://github.com/bkimminich) aka `bkimminich`
-  ([Project Leader](https://www.owasp.org/index.php/Projects/Project_Leader_Responsibilities))
-  [![Keybase PGP](https://img.shields.io/keybase/pgp/bkimminich)](https://keybase.io/bkimminich)
-- [Jannik Hollenbach](https://github.com/J12934) aka `J12934`
-- [Timo Pagel](https://github.com/wurstbrot) aka `wurstbrot`
-
-For a list of all contributors to the OWASP Juice Shop please visit our
-[HALL_OF_FAME.md](HALL_OF_FAME.md).
-
-## Licensing
-
-[![license](https://img.shields.io/github/license/bkimminich/juice-shop.svg)](LICENSE)
-
-This program is free software: you can redistribute it and/or modify it
 under the terms of the [MIT license](LICENSE). OWASP Juice Shop and any
 contributions are Copyright © by Bjoern Kimminich 2014-2021.
 
