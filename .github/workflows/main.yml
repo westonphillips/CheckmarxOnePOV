@@ -15,7 +15,7 @@ jobs:
         uses: checkmarx/ast-github-action@main #Github Action version
         with:
           project_name: ${{ github.repository }}
-          cx_tenant: weston.phillips
+          cx_tenant: 126edbdf-3e17-4b43-b321-72fcdac8ef5b
           base_uri: https://ast.checkmarx.net
           cx_client_id: ${{ secrets.CX_CLIENT_ID }}
           cx_client_secret: ${{ secrets.CX_CLIENT_SECRET }}
