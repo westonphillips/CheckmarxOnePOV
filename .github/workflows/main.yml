@@ -10,13 +10,13 @@ jobs:
     permissions:
       contents: read # for actions/checkout to fetch code
       security-events: write # for github/codeql-action/upload-sarif to upload SARIF results
-      actions: read # only required for a private repository by github/codeql-action/upload-sarif
+      actions: write # only required for a private repository by github/codeql-action/upload-sarif
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
         uses: actions/checkout@v2
       - name: Checkmarx One CLI Action
-        uses: checkmarx/ast-github-action@v2.0.0 #Github Action version
+        uses: checkmarx/ast-github-action@main #Github Action version
         with:
           project_name: ${{ github.repository }}
           cx_tenant: nfr_guidepoint_nfr
